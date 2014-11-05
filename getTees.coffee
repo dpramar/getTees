@@ -13,6 +13,11 @@ data =
         ,
             selector:'div.zoom-dynamic-image>div.background', attribute:'style'
         ]
+    ,
+        url:'https://www.riptapparel.com'
+        cssData: [
+            selector:'h3.shirttitle~img', attribute:'data-src'
+        ]
     ]
 
 imgLinks = []
